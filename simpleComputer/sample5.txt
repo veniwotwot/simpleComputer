@@ -1,0 +1,26 @@
+8   // Get Random Int 		This Program should add five random numbers together
+14  // CopyToX from AC		Note that the program will not work if you set the timer
+8   // Get Random Int		value to anything below 25.
+16  // CopyToY from AC
+8   // Get Random Int
+10  // AddX to AC
+11  // AddY to AC
+14  // CopyToX from AC
+8   // Get
+16  // CopyToY from AC	->
+10  // AddX to AC
+11  // AddY to AC
+14  // CopyToX from AC
+8   // Get
+16  // CopyToY from AC
+10  // AddX to AC
+11  // AddY to AC
+14  // CopyToX from AC
+8   // Get
+16  // CopyToY from AC
+10  // AddX to AC
+11  // AddY to AC
+14  // CopyToX from AC
+9   // Put 1
+1
+50  // End     

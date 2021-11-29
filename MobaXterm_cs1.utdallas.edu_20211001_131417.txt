@@ -1,0 +1,136 @@
+login as: vyw180000
+Pre-authentication banner message from server:
+|                       University of Texas at Dallas
+|                       Department of Computer Science
+|
+|                 Use of UTD Information Systems is subject to
+|           the UTD Information Security and Acceptable Use Policy.
+|
+|   Pursuant to Texas Administrative Code 202:
+|   (1) Unauthorized use is prohibited;
+|   (2) Usage may be subject to security testing and monitoring;
+|   (3) Misuse is subject to criminal prosecution; and
+|   (4) No expectation of privacy except as otherwise provided by applicable
+|       privacy laws.
+|
+|       If five (5) incorrect passwords are received from your IP address,
+|     this system will ban your IP address access for twenty-four (24) hours.
+|
+|        ATTENTION: utdnetid != utdnetid@utdallas.edu (UTD != Google!)
+|
+|    Just use utdnetid, and for the love of programming, STOP USING ALL CAPS!
+|
+|   [[NOTE: All CS Graduate Students should use csgrads1.utdallas.edu      ]]
+|   [[   If you are a CS Graduate Student, you cannot logon to this server.]]
+|
+|
+|  ***** This system will require a connection to the GlobalProtect VPN startin
+> g
+|  on the following dates:
+|
+|  cslinux1.utdallas.edu - June 15, 2020
+|  cslinux2.utdallas.edu - June 22, 2020
+|
+|  ***** GlobalProtect VPN Instructions: https://www.utdallas.edu/oit/howto/vpn
+> /
+|
+End of banner message from server
+Keyboard-interactive authentication prompts from server:
+| Password:
+End of keyboard-interactive prompts from server
+Access denied
+Keyboard-interactive authentication prompts from server:
+| Password:
+End of keyboard-interactive prompts from server
+     +--------------------------------------------------------------------+
+     ¦                        • MobaXterm 20.3 •                          ¦
+     ¦            (SSH client, X-server and networking tools)             ¦
+     ¦                                                                    ¦
+     ¦ ? SSH session to vyw180000@cslinux1.utdallas.edu                   ¦
+     ¦   • SSH compression : ?                                            ¦
+     ¦   • SSH-browser     : ?                                            ¦
+     ¦   • X11-forwarding  : ?  (remote display is forwarded through SSH) ¦
+     ¦   • DISPLAY         : ?  (automatically set on remote server)      ¦
+     ¦                                                                    ¦
+     ¦ ? For more info, ctrl+click on help or visit our website           ¦
+     +--------------------------------------------------------------------+
+
+Last failed login: Fri Oct  1 13:11:31 CDT 2021 from utdvpn-10-50-120-44.utdallas.edu on ssh:notty
+There was 1 failed login attempt since the last successful login.
+Last login: Fri Oct  1 12:15:18 2021 from utdvpn-10-50-120-44.utdallas.edu
+
+                       ***---***---***---***---***---***
+                    csgrads1.utdallas.edu - CentOS Linux 7.9
+                 --All CS Graduate Students should use csgrads1--
+                      cs1.utdallas.edu - CentOS Linux 7.9
+                      cs2.utdallas.edu - CentOS Linux 7.9
+                       ***---***---***---***---***---***
+
+This system is for use by CS students who need a general purpose Linux system
+to complete homework assignments.  Computationally or resource intensive
+simulations will be throttled automatically.
+
+Thank you,
+CS Lab Manager
+cs-labs@utdallas.edu
+
+               /scratch disk space can be used for temporary files.
+      All files within /scratch will be erased on a regular basis (Sunday 0300).
+
+{cslinux1:~} mkdir simpleComputer
+{cslinux1:~} vi simpleComputer/MemoryProxy.java
+{cslinux1:~} cd simpleComputer/
+{cslinux1:~/simpleComputer} javac MemoryProxy.java
+{cslinux1:~/simpleComputer} javac MemoryPro
+MemoryProto.java     MemoryProxy$1.class  MemoryProxy.class    MemoryProxy.java
+{cslinux1:~/simpleComputer} javac MemoryProto.java
+{cslinux1:~/simpleComputer} cd
+{cslinux1:~} javac -cp . simpleComputer/SimpleComputerProto.java
+{cslinux1:~} java simpleComputer/SimpleComputerProto simpleComputer/sample1.txt 30
+ABCDEFGHIJKLMNOPQRSTUVWXYZ12345678910
+{cslinux1:~} java simpleComputer/SimpleComputerProto simpleComputer/sample2.txt 30
+    ------
+ /         \
+/   -*  -*  \
+|           |
+\   \____/  /
+ \         /
+    ------
+{cslinux1:~} java simpleComputer/SimpleComputerProto simpleComputer/sample3.txt 30
+A
+0
+A
+0
+A
+0
+A
+0
+A
+0
+A
+1
+A
+1
+A
+2
+A
+2
+A
+3
+{cslinux1:~} java simpleComputer/SimpleComputerProto simpleComputer/sample4.txt 30
+1000
+999
+1000
+1997
+1996
+1997
+Access Memory Denied
+{cslinux1:~} java simpleComputer/SimpleComputerProto simpleComputer/sample5.txt 30
+699{cslinux1:~} logout
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Session stopped
+    - Press <return> to exit tab
+    - Press R to restart session
+    - Press S to save terminal output to file
